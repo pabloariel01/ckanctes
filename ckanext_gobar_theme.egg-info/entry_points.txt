@@ -1,0 +1,6 @@
+
+        [ckan.plugins]
+        gobar_theme=ckanext.gobar_theme.plugin:Gobar_ThemePlugin
+        [babel.extractors]
+        ckan = ckan.lib.extract:extract_ckan
+    
