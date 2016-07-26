@@ -38,7 +38,7 @@ div.svg-tooltip {
   left: 50%; }
 
 #header {
-  background: #499e37;
+  background-image: linear-gradient(to right,#33CC60, #068a1a);
   padding: 0;
   -o-box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.5);
@@ -176,7 +176,7 @@ div#background-container {
     height: 100%;
     width: 100%; }
     div#background-container svg#background path {
-      fill: #00B9F1; }
+      fill: #314421; }
     div#background-container svg#background circle {
       fill: none; }
     div#background-container svg#background g {
@@ -473,7 +473,7 @@ div#background-container {
   width: 100%;
   background-color: #79bc6b;
   background-image: -webkit-linear-gradient(left, #1A993F, #068a1a);
-  background-image: linear-gradient(to right,#1A993F, #068a1a); }
+  background-image: linear-gradient(to right,#33CC60, #068a1a); }
   #title #title-container {
     text-align: center; }
     @media (min-width: 992px) {
