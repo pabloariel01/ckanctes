@@ -641,9 +641,10 @@ div#background-container {
             display: table-cell;
             vertical-align: middle; }
       .featured-groups .group-container .group.inactive {
-        color: #eaeced; }
+        color: #58595a; }
         .featured-groups .group-container .group.inactive .group-text {
-          border-bottom-color: #eaeced; }
+          border-bottom-color: #eaeced; 
+          background: rgba(191, 183, 170, 0.08);}
           .featured-groups .group-container .group.inactive .group-text svg path {
             fill: #eaeced; }
       .featured-groups .group-container .group.active:hover svg path {

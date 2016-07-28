@@ -21,6 +21,14 @@ def _count_total(organization):
             children_count += _count_total(child_organization)
     return organization['package_count'] + children_count
 
+def _count_child():
+    children_count = 0
+    if 'children' in organization and len(organization['children']):
+        for child_organization in organization['children']:
+            children_count += _count_total(child_organization)
+    return  children_count
+
+
 
 def organization_tree():
     organizations_tree = logic.get_action('group_tree')({}, {'type': 'organization'})
